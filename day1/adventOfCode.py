@@ -37,10 +37,10 @@ def threeMeasSlideWin(x):
     return count
 
 def main():
-    val = open('input.txt')
+    val = open('day1\input.txt')
     depthArr = findDepth(val)
     print(depthArr)
-    val = open('input.txt')
+    val = open('day1\input.txt')
     print(threeMeasSlideWin(val))
 
 if __name__ == "__main__":
